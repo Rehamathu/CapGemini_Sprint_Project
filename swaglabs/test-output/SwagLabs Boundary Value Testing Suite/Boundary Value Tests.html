@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>TestNG:  Boundary Value Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Boundary Value Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 09 16:31:59 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>47 seconds (47417 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>BVT </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ecom.swaglabs.login.LoginTest.aboveMaximumLengthLoginTest()'><b>aboveMaximumLengthLoginTest</b><br>Test class: ecom.swaglabs.login.LoginTest<br/>
+<a href="#Output-1471633238" onClick='toggleBox("Output-1471633238", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1471633238" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1471633238">
+TC-BVT-04: Above-maximum input handled<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.login.LoginTest@77888435</td></tr>
+<tr>
+<td title='ecom.swaglabs.login.LoginTest.loginBoundaryDataRejectionTest()'><b>loginBoundaryDataRejectionTest</b><br>Test class: ecom.swaglabs.login.LoginTest<br/>
+<a href="#Output-1004219512" onClick='toggleBox("Output-1004219512", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1004219512" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1004219512">
+TC-UI-06: Invalid test data was rejected; exact boundary limits still require confirmation<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.login.LoginTest@77888435</td></tr>
+<tr>
+<td title='ecom.swaglabs.login.LoginTest.maximumLengthLoginTest()'><b>maximumLengthLoginTest</b><br>Test class: ecom.swaglabs.login.LoginTest<br/>
+<a href="#Output-1948863514" onClick='toggleBox("Output-1948863514", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1948863514" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1948863514">
+TC-BVT-03: Maximum-length input handled<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.login.LoginTest@77888435</td></tr>
+<tr>
+<td title='ecom.swaglabs.login.LoginTest.minimumLengthLoginTest()'><b>minimumLengthLoginTest</b><br>Test class: ecom.swaglabs.login.LoginTest<br/>
+<a href="#Output-610189734" onClick='toggleBox("Output-610189734", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-610189734" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-610189734">
+TC-BVT-01: Minimum-length input handled<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.login.LoginTest@77888435</td></tr>
+<tr>
+<td title='ecom.swaglabs.login.LoginTest.belowMinimumLengthLoginTest()'><b>belowMinimumLengthLoginTest</b><br>Test class: ecom.swaglabs.login.LoginTest<br/>
+<a href="#Output-270734602" onClick='toggleBox("Output-270734602", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-270734602" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-270734602">
+TC-BVT-02: Below-minimum input handled<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.login.LoginTest@77888435</td></tr>
+</table><p>
+</body>
+</html>

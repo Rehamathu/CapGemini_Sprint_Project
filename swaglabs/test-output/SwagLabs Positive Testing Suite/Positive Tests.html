@@ -1,0 +1,308 @@
+<html>
+<head>
+<title>TestNG:  Positive Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Positive Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 09 15:08:49 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>331 seconds (331287 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Pos </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ecom.swaglabs.hamburgermenu.HamburgerMenuTest.allItemsNavigationTest()'><b>allItemsNavigationTest</b><br>Test class: ecom.swaglabs.hamburgermenu.HamburgerMenuTest<br/>
+<a href="#Output-771119702" onClick='toggleBox("Output-771119702", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-771119702" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-771119702">
+All Items successfully returns to Product Catalog<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>ecom.swaglabs.hamburgermenu.HamburgerMenuTest@6025e1b6</td></tr>
+<tr>
+<td title='ecom.swaglabs.login.LoginTest.validLoginTest()'><b>validLoginTest</b><br>Test class: ecom.swaglabs.login.LoginTest<br/>
+<a href="#Output-939625314" onClick='toggleBox("Output-939625314", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-939625314" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-939625314">
+User logged in successfully with valid credentials<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>ecom.swaglabs.login.LoginTest@34123d65</td></tr>
+<tr>
+<td title='ecom.swaglabs.product.ProductTest.productCatalogTest()'><b>productCatalogTest</b><br>Test class: ecom.swaglabs.product.ProductTest<br/>
+<a href="#Output-71148574" onClick='toggleBox("Output-71148574", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-71148574" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-71148574">
+Product Catalog loaded successfully and products are displayed<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>ecom.swaglabs.product.ProductTest@6a6cb05c</td></tr>
+<tr>
+<td title='ecom.swaglabs.hamburgermenu.HamburgerMenuTest.dynamicCatalogMenuTest()'><b>dynamicCatalogMenuTest</b><br>Test class: ecom.swaglabs.hamburgermenu.HamburgerMenuTest<br/>
+<a href="#Output-282166934" onClick='toggleBox("Output-282166934", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-282166934" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-282166934">
+Dynamic Catalog displays Lazy Load, Spinner and Slider options<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>ecom.swaglabs.hamburgermenu.HamburgerMenuTest@6025e1b6</td></tr>
+<tr>
+<td title='ecom.swaglabs.product.ProductTest.verifySortOptionsTest()'><b>verifySortOptionsTest</b><br>Test class: ecom.swaglabs.product.ProductTest<br/>
+<a href="#Output-628599133" onClick='toggleBox("Output-628599133", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-628599133" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-628599133">
+All four required sorting options are available and selectable<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>ecom.swaglabs.product.ProductTest@6a6cb05c</td></tr>
+<tr>
+<td title='ecom.swaglabs.product.ProductTest.sortNameAToZTest()'><b>sortNameAToZTest</b><br>Test class: ecom.swaglabs.product.ProductTest<br/>
+<a href="#Output-1713453581" onClick='toggleBox("Output-1713453581", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1713453581" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1713453581">
+Products are sorted successfully from Name A to Z<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>ecom.swaglabs.product.ProductTest@6a6cb05c</td></tr>
+<tr>
+<td title='ecom.swaglabs.hamburgermenu.HamburgerMenuTest.lazyLoadTest()'><b>lazyLoadTest</b><br>Test class: ecom.swaglabs.hamburgermenu.HamburgerMenuTest<br/>
+<a href="#Output-192752977" onClick='toggleBox("Output-192752977", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-192752977" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-192752977">
+Dynamic Catalog Lazy Load page opened successfully<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>ecom.swaglabs.hamburgermenu.HamburgerMenuTest@6025e1b6</td></tr>
+<tr>
+<td title='ecom.swaglabs.hamburgermenu.HamburgerMenuTest.spinnerTest()'><b>spinnerTest</b><br>Test class: ecom.swaglabs.hamburgermenu.HamburgerMenuTest<br/>
+<a href="#Output-975941670" onClick='toggleBox("Output-975941670", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-975941670" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-975941670">
+Dynamic Catalog Spinner page opened successfully<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>ecom.swaglabs.hamburgermenu.HamburgerMenuTest@6025e1b6</td></tr>
+<tr>
+<td title='ecom.swaglabs.productdetails.ProductDetailsTest.backToProductsTest()'><b>backToProductsTest</b><br>Test class: ecom.swaglabs.productdetails.ProductDetailsTest<br/>
+<a href="#Output-70482685" onClick='toggleBox("Output-70482685", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-70482685" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-70482685">
+Back to Products successfully returns to Product Catalog<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>ecom.swaglabs.productdetails.ProductDetailsTest@40a4337a</td></tr>
+<tr>
+<td title='ecom.swaglabs.hamburgermenu.HamburgerMenuTest.hamburgerMenuTest()'><b>hamburgerMenuTest</b><br>Test class: ecom.swaglabs.hamburgermenu.HamburgerMenuTest<br/>
+<a href="#Output-1980698753" onClick='toggleBox("Output-1980698753", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1980698753" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1980698753">
+Hamburger menu displays all required navigation options<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>ecom.swaglabs.hamburgermenu.HamburgerMenuTest@6025e1b6</td></tr>
+<tr>
+<td title='ecom.swaglabs.product.ProductTest.sortNameZToATest()'><b>sortNameZToATest</b><br>Test class: ecom.swaglabs.product.ProductTest<br/>
+<a href="#Output-1127434428" onClick='toggleBox("Output-1127434428", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1127434428" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1127434428">
+Products are sorted successfully from Name Z to A<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>ecom.swaglabs.product.ProductTest@6a6cb05c</td></tr>
+<tr>
+<td title='ecom.swaglabs.product.ProductTest.sortPriceHighToLowTest()'><b>sortPriceHighToLowTest</b><br>Test class: ecom.swaglabs.product.ProductTest<br/>
+<a href="#Output-2089054322" onClick='toggleBox("Output-2089054322", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2089054322" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2089054322">
+Products are sorted successfully from Price High to Low<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>ecom.swaglabs.product.ProductTest@6a6cb05c</td></tr>
+<tr>
+<td title='ecom.swaglabs.hamburgermenu.HamburgerMenuTest.sliderTest()'><b>sliderTest</b><br>Test class: ecom.swaglabs.hamburgermenu.HamburgerMenuTest<br/>
+<a href="#Output-1334204880" onClick='toggleBox("Output-1334204880", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1334204880" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1334204880">
+Dynamic Catalog Slider page opened successfully<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>ecom.swaglabs.hamburgermenu.HamburgerMenuTest@6025e1b6</td></tr>
+<tr>
+<td title='ecom.swaglabs.product.ProductTest.sortPriceLowToHighTest()'><b>sortPriceLowToHighTest</b><br>Test class: ecom.swaglabs.product.ProductTest<br/>
+<a href="#Output-345607713" onClick='toggleBox("Output-345607713", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-345607713" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-345607713">
+Products are sorted successfully from Price Low to High<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>ecom.swaglabs.product.ProductTest@6a6cb05c</td></tr>
+<tr>
+<td title='ecom.swaglabs.productdetails.ProductDetailsTest.productDetailsPageTest()'><b>productDetailsPageTest</b><br>Test class: ecom.swaglabs.productdetails.ProductDetailsTest<br/>
+<a href="#Output-1805638598" onClick='toggleBox("Output-1805638598", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1805638598" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1805638598">
+Product Details page opened successfully with required product information<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>ecom.swaglabs.productdetails.ProductDetailsTest@40a4337a</td></tr>
+<tr>
+<td title='ecom.swaglabs.login.LoginTest.logoutTest()'><b>logoutTest</b><br>Test class: ecom.swaglabs.login.LoginTest<br/>
+<a href="#Output-1334528976" onClick='toggleBox("Output-1334528976", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1334528976" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1334528976">
+User logged out successfully<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>ecom.swaglabs.login.LoginTest@34123d65</td></tr>
+<tr>
+<td title='ecom.swaglabs.hamburgermenu.HamburgerMenuTest.resetAppStateTest()'><b>resetAppStateTest</b><br>Test class: ecom.swaglabs.hamburgermenu.HamburgerMenuTest<br/>
+<a href="#Output-944009919" onClick='toggleBox("Output-944009919", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-944009919" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-944009919">
+Reset App State executed successfully without application error<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>ecom.swaglabs.hamburgermenu.HamburgerMenuTest@6025e1b6</td></tr>
+<tr>
+<td title='ecom.swaglabs.hamburgermenu.HamburgerMenuTest.aboutNavigationTest()'><b>aboutNavigationTest</b><br>Test class: ecom.swaglabs.hamburgermenu.HamburgerMenuTest<br/>
+<a href="#Output-142449153" onClick='toggleBox("Output-142449153", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-142449153" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-142449153">
+About page opened successfully<br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>ecom.swaglabs.hamburgermenu.HamburgerMenuTest@6025e1b6</td></tr>
+<tr>
+<td title='ecom.swaglabs.productdetails.ProductDetailsTest.verifyProductDetailsTest()'><b>verifyProductDetailsTest</b><br>Test class: ecom.swaglabs.productdetails.ProductDetailsTest<br/>
+<a href="#Output-299031853" onClick='toggleBox("Output-299031853", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-299031853" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-299031853">
+Product Details information is displayed correctly<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>ecom.swaglabs.productdetails.ProductDetailsTest@40a4337a</td></tr>
+</table><p>
+</body>
+</html>

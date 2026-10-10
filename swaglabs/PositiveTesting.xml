@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SwagLabs Positive Testing Suite">
+    <test name="Positive Tests">
+        <groups>
+            <run>
+                <include name="Pos"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="ecom.swaglabs.login.LoginTest"/>
+            <class name="ecom.swaglabs.product.ProductTest"/>
+            <class name="ecom.swaglabs.productdetails.ProductDetailsTest"/>
+            <class name="ecom.swaglabs.hamburgermenu.HamburgerMenuTest"/>
+        </classes>
+    </test>
+</suite>
